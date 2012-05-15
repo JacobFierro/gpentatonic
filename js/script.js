@@ -29,7 +29,7 @@ function finishedLoading(bufferList) {
 }
 
 function bindToKeys() {
-	$('body').bind('keyup', function(e){
+	$('body').bind('keydown', function(e){
 		var key = e.keyCode;
 		switch (key) {
 			case 83 :
